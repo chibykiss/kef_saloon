@@ -76,6 +76,10 @@ Table of content:
   --dark-body-font-color: #cccccc;
 
 }
+.form-group{
+  display: flex;
+  justify-content: space-between;
+}
 .arrow-back{
   margin-left: 50px;
   color: #47251f;
