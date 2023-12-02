@@ -10,6 +10,8 @@
     <!-- <link href="test/plugins.css" rel="stylesheet" type="text/css" > -->
     <link href="test/style.css" rel="stylesheet" type="text/css" >
     <link href="test/coloring.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
     <!-- color scheme -->
     <link id="colors" href="test/colors/scheme-01.css" rel="stylesheet" type="text/css" >
 </head>
@@ -26,7 +28,7 @@
         <div class="row">
 
             <div class="col-md-10 offset-md-1">
-                <form name="contactForm" id='contact_form' class="form-border" method="post">
+                <form name="contactForm" id='contact_form' class="form-border">
                     <div id="step-1" class="row">
                         <h3 class="s2">Choose Services</h3>
 
@@ -36,24 +38,24 @@
                                     <h5>HAIR TREATMENT</h5>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Haircuts" id="s_a1" value="Regular Haircut">
+                                        <input type="checkbox" name="Services Haircuts" id="s_a1" value="Hair coloring black + treatment">
                                         <label for="s_a1">Hair coloring black + treatment</label>
                                       </div>
-                                      <p>8,500</p>
+                                      <label>8,500</label>
                                     </div>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Haircuts" id="s_a2" value="Scissors Haircut">
+                                        <input type="checkbox" name="Services Haircuts" id="s_a2" value="ANy other color dye + hair treatment">
                                       <label for="s_a2">ANy other color dye + hair treatment</label>
                                       </div>
-                                      <p>12,350</p>
+                                      <label>12,350</label>
                                     </div>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Haircuts" id="s_a3" value="Kids Haircut">
+                                        <input type="checkbox" name="Services Haircuts" id="s_a3" value="Dread lock treating hair">
                                         <label for="s_a3">Dread lock treating hair</label>
                                       </div>
-                                      <p>10,000</p>         
+                                      <label>10,000</label>         
                                     </div>
                                 </div>
                             </div>
@@ -63,24 +65,24 @@
                                     <h5>Dread</h5>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Shave" id="s_b1" value="Head Shave">
+                                        <input type="checkbox" name="Services Shave" id="s_b1" value="Brand new dread locking">
                                       <label for="s_b1">Brand new dread locking</label>
                                       </div>
-                                      <p>50,000</p>                             
+                                      <label>50,000</label>                             
                                     </div>
                                     <div class="form-group">
                                       <div>
                                         <input type="checkbox" name="Services Shave" id="s_b2" value="Royal Shave">
                                       <label for="s_b2">Restyling/Relocking</label>
                                       </div>
-                                      <p>30,000</p>
+                                      <label>30,000</label>
                                     </div>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Shave" id="s_b3" value="Royal Head Shave">
+                                        <input type="checkbox" name="Services Shave" id="s_b3" value="Dread lock repair">
                                       <label for="s_b3">Dread lock repair</label>
                                       </div>
-                                      <p>15,000</p>
+                                      <label>15,000</label>
                                     </div>
                                     <!-- <div class="form-group">
                                       <div>
@@ -104,38 +106,38 @@
                                     <h5>Barbing</h5>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Facial" id="s_c1" value="Deep Pore Cleansing">
+                                        <input type="checkbox" name="Services Facial" id="s_c1" value="Hair cut without shaving">
                                         <label for="s_c1">Hair cut without shaving</label>
                                       </div>
-                                      <p>5,000</p>
+                                      <label>5,000</label>
                                     </div>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Facial" id="s_c2" value="Aromatherapy Facial">
+                                        <input type="checkbox" name="Services Facial" id="s_c2" value="Hair cut with shaving">
                                       <label for="s_c2">Hair cut with shaving</label>
                                       </div>
-                                      <p>7,500</p>
+                                      <label>7,500</label>
                                     </div>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Facial" id="s_c3" value="Acne Problem Facial">
+                                        <input type="checkbox" name="Services Facial" id="s_c3" value="Kids haircut">
                                       <label for="s_c3">Kids haircut</label>
                                       </div>
-                                      <p>4,500</p>
+                                      <label>4,500</label>
                                     </div>
                                     <div class="form-group">
                                       <div>
-                                        <input type="checkbox" name="Services Facial" id="s_c4" value="European Facial">
+                                        <input type="checkbox" name="Services Facial" id="s_c4" value="Hair coloring black + treatment">
                                         <label for="s_c4">Hair coloring black + treatment</label>
                                       </div>
-                                      <p>8,500</p>
+                                      <label>8,500</label>
                                     </div>
                                     <div class="form-group">
                                       <div>
-                                      <input type="checkbox" name="Services Facial" id="s_c5" value="Glycolic Peel Facial">
+                                      <input type="checkbox" name="Services Facial" id="s_c5" value="Any other color dye + hair treatment">
                                       <label for="s_c5">Any other color dye + hair treatment</label>
                                       </div>
-                                      <p>12,350</p>
+                                      <label>12,350</label>
                                     </div>
                                 </div>
                             </div>
@@ -201,10 +203,7 @@
                                 <div class="spacer-single"></div>
                                 <h3 class="s2">Select Time</h3>
                                 <div class="custom_radio">
-                                    <div class="radio-opt">
-                                    <input type="radio" id="choose_8:00AM" value="8:00 AM" name="select_time" checked><label for="choose_8:00AM">8:00 AM</label>
-                                </div>
-                                  <div class="radio-opt">
+                                  <div class="radio-opt" id="opt_830">
                                     <input type="radio" id="choose_8:30AM" value="8:30 AM" name="select_time" checked><label for="choose_8:30AM">8:30 AM</label>
                                 </div>
                                   <div class="radio-opt">
@@ -260,22 +259,34 @@
                                   </div>
                                   <div class="radio-opt">
                                     <input type="radio" id="choose_5:30PM" value="5:30 PM" name="select_time" checked><label for="choose_5:30PM">5:30 PM</label>
-                                </div>
+                                  </div>
                                   <div class="radio-opt">
                                       <input type="radio" id="choose_6PM" value="6:00 PM" name="select_time"><label for="choose_6PM">6:00 PM</label>
                                   </div>
                                   <div class="radio-opt">
                                     <input type="radio" id="choose_6:30PM" value="6:30 PM" name="select_time" checked><label for="choose_6:30PM">6:30 PM</label>
-                                </div>
+                                  </div>
                                   <div class="radio-opt">
                                       <input type="radio" id="choose_7PM" value="7:00 PM" name="select_time"><label for="choose_7PM">7:00 PM</label>
                                   </div>
                                   <div class="radio-opt">
                                     <input type="radio" id="choose_7:30PM" value="7:30 PM" name="select_time" checked><label for="choose_7:30PM">7:30 PM</label>
-                                </div>
-                                  <div class="radio-opt">
-                                      <input type="radio" id="choose_8PM" value="7:00 PM" name="select_time"><label for="choose_8PM">8:00 PM</label>
                                   </div>
+                                  <div class="radio-opt">
+                                      <input type="radio" id="choose_8PM" value="8:00 PM" name="select_time"><label for="choose_8PM">8:00 PM</label>
+                                  </div>
+                                  <div class="radio-opt" id="opt_830PM">
+                                    <input type="radio" id="choose_8:30PM" value="8:30 PM" name="select_time"><label for="choose_8:30PM">8:30 PM</label>
+                                </div>
+                                <div class="radio-opt" id="opt_9">
+                                  <input type="radio" id="choose_9PM" value="9:00 PM" name="select_time"><label for="choose_9PM">9:00 PM</label>
+                                </div>
+                                <div class="radio-opt" id="opt_930">
+                                  <input type="radio" id="choose_9:30PM" value="9:30 PM" name="select_time"><label for="choose_9:30PM">9:30 PM</label>
+                              </div>
+                              <div class="radio-opt" id="opt_10">
+                                <input type="radio" id="choose_10PM" value="10:00 PM" name="select_time"><label for="choose_10PM">10:00 PM</label>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -333,16 +344,19 @@
         </div>
     </div>
 </section>
-<!-- <script src="js/plugins.js"></script>
+<!-- 
 <script src="js/designesia.js"></script>
 <script src='../../../www.google.com/recaptcha/api.js' async defer></script>
-<script src="form.js"></script>
+
 
 <script type="text/javascript">     
     jQuery(function($){     
         $( '.g-recaptcha' ).attr( 'data-theme', 'dark' );     
     });     
 </script> -->
-<script src=""></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="payment.js"></script>
+<script src="js/plugins.js"></script>
+<script src="form.js"></script>
 </body>
 </html>
